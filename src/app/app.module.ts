@@ -6,6 +6,7 @@ import { UserComponent } from './user/user.component';
 import { MoviesListComponent } from './movies-list/movies-list.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MovieComponent } from './movie/movie.component';
+import { NavComponent } from './nav/nav.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { MovieComponent } from './movie/movie.component';
     AppComponent,
     UserComponent,
     MoviesListComponent,
-    MovieComponent
+    MovieComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,

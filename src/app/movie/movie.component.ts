@@ -4,7 +4,8 @@ import { Component, Input , Output, EventEmitter} from '@angular/core';
 @Component({
   selector: 'app-movie',
   
-  template: ` <div class="container"> 
+  template: `
+   <div class="container"> 
     <div class="card" style="width: 18rem; margin lefr= 10px">
   <img src="/assets/images/AAAABVM8FGjuh_qA0KWMX5G1APlUH1tHJeR6lx5SPEWEbPR9seclxatx2w0AEEPvH2biwxLVzGwK7yFnUaew2qiP_DtP-zA.jpg"  class="card-img-top" alt="Tom Hangs">
   <div class="card-body">
