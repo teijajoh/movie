@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: black;
+}
+.card{ margin-left: 1rem;
+    margin-block-end:1rem
+
+}
+h2 {
+    color: white
+}
+
+.container {
+    padding-top: 0px;
+    background-color: blueviolet;
+  }
+
+
+
+  button{
+      margin-left: 2rm;
+  }
